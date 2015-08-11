@@ -1,5 +1,5 @@
 (ns chapter08.expense-finders
-  (:require clojure.string :as string))
+  (:require [clojure.string :as string]))
 
 (defstruct expense :amount :date)
 
